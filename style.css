@@ -1,23 +1,13 @@
 /*!
 Theme Name: aldano
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
+
+Author: driesdriesdries
+Description: Wordpress Theme for Aldano
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: aldano
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-aldano is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
@@ -982,3 +972,16 @@ object {
 .gallery-caption {
 	display: block;
 }
+/*Aldano Styling Starts Here*/ 
+
+/*Navbar Styling Starts*/
+.navbar {
+	margin-bottom: 0px;
+}
+/*Navbar Styling Ends*/
+/*Home Page Starts*/
+.hero .col-sm-12 {
+	background-color: red;
+	height: 400px;
+}
+/*Home Page Ends*/
